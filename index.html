@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodersLab</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+
+<input id="taskInput" placeholder="Place your task here">
+<label for="priority" class="count"> Priorytet:
+<!--<input id="priority" placeholder="Priority" type="">-->
+<select id="priority">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+</select>
+</label><br>
+<button id="addTaskButton">add task</button>
+
+
+<span class="count">Tasks to finish: <span id="counter"></span></span>
+<br>
+
+<ul id="taskList">
+    <!--<li>
+        <h1>Task 1</h1>
+        <button>Delete</button>
+        <button>Complete</button>
+    </li>
+    <li class="done">
+        <h1>Task 2</h1>
+        <button>Delete</button>
+        <button>Complete</button>
+    </li>-->
+</ul>
+
+<button id="removeFinishedTasksButton">remove finished tasks</button>
+
+</body>
+</html>

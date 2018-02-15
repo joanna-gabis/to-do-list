@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+}
+
+
+.done {
+    background-color: #3C1742;
+    color: red;
+    list-style-type: none;
+    /*text-decoration: line-through;*/
+}
+
+.done:after {
+    content: '✓';
+}
+
+ul {
+    list-style: none;
+}
+
+
+li {
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: #3C1742;
+    color: white;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    color: #3C1742;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #F3FFB9;
+    margin: 3px;
+}
+
+input, select {
+    width: 350px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 2px;
+}
+
+select {
+    width: 40px;
+}
+
+#priority {
+    height: 25px;
+}
+
+#removeFinishedTasksButton {
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 300;
+    background-color: #6C0E23;
+    color: white;
+    border: 1px solid #6C0E23;
+    box-shadow: none;
+}
+
+#addTaskButton {
+    width: 200px;
+    height: 50px;
+    line-height: 30px;
+    background-color: #C42021;
+    border: 1px solid #C42021;
+    font-size: 16px;
+    color: white;
+}
+
+.count {
+    font-weight: 700;
+
+}
+
+
+
+
+
