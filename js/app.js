@@ -1,7 +1,3 @@
-/**
- * Created by Jacek on 2015-12-16.
- */
-
 document.addEventListener('DOMContentLoaded', function() {
 
     var input = document.getElementById('taskInput');
@@ -65,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
            priority.value = 1;
        } else { // incorrect task name length (too short or too long)
            input.value = '';
-           input.setAttribute('placeholder', 'Liczba znaków musi zawierać się w przedziale 5-100');
+           input.setAttribute('placeholder', 'The number of characters must be between 5 and 100');
            input.style.borderColor="red";
        }
         counterIndex = document.querySelectorAll('h1:not(.done)').length;
@@ -75,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // remove finished tasks button event listener
 
     removeFinishButton.addEventListener('click', function() {
-       var finishedTasks = document.querySelectorAll('.done'); //tablica h1
+       var finishedTasks = document.querySelectorAll('.done'); //array h1
 
        for(var i=0; i<finishedTasks.length; i++) {
            taskList.removeChild(finishedTasks[i].parentElement);
