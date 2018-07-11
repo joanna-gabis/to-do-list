@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
        var taskName = document.createElement('h1');
        taskName.innerText = input.value;
        var taskPriority = document.createElement('p');
-       taskPriority.innerText = 'Priorytet zadania: ' +  priority.value;
+       taskPriority.innerText = 'Priority: ' +  priority.value;
        var buttonComplete = document.createElement('button');
        buttonComplete.innerText = 'Complete';
        var buttonDelete = document.createElement('button');
